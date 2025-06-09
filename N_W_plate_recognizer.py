@@ -5,7 +5,7 @@ import os
 from ultralytics import YOLO
 
 # ===== Step 1: Load or Create Database =====
-DB_FILE = "plate_db.json"
+DB_FILE = "database.json"
 
 if os.path.exists(DB_FILE):
     with open(DB_FILE, "r") as f:
